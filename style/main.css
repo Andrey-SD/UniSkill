@@ -1,0 +1,36 @@
+:root {
+	--main-bg-color: #f7f7f7;
+	--main-text-color: #000;
+	--dark-color:#5ab9c1;
+	--medium-color:rgb(153, 213, 217);
+	--light-color: rgb(183, 225, 228);
+}
+
+body {
+	background: var(--main-bg-color);
+}
+
+main {
+	display: flex;
+}
+
+nav ul a {
+	font-size: 1.5rem;
+	width: 90%;
+	display: block;
+	color: var(--main-bg-color);
+	background: var(--dark-color);
+	padding: 0.5rem 1.5rem;
+	margin: 0.9rem 0;
+	border-top-right-radius: 30px;
+	border-bottom-right-radius: 30px;
+}
+
+nav ul a:hover {
+	width: 100%;
+}
+
+.logo-container {
+	text-align: center;
+	padding: 30px;
+}
